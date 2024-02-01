@@ -16,7 +16,7 @@ document.addEventListener("keypress", function() {
     }
 })
 
-document.addEventListener("click", function() {
+document.addEventListener("touchstart", function() {
     if(started==false){
         console.log("Game started")
         started = true;
